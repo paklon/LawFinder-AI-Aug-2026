@@ -54,7 +54,10 @@ pip install -r requirements.txt
 ```bash
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
-* Go to .streamlit/secrets.toml and add your generated key
+* Create .streamlit/secrets.toml and add your generated key:
+```bash
+FERNET_KEY = "your-generated-fernet-key-here"
+```
 
 ### 4.Start Local LLM Server (Optional for AI Chat)
 * Run LM Studio (or any OpenAI-compatible local server) serving qwen2.5-1.5b at http://localhost:1234/v1. 
