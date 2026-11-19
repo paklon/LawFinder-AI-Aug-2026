@@ -67,3 +67,8 @@ FERNET_KEY = "your-generated-fernet-key-here"
 streamlit run web_app.py
 ```
 * To access the hidden Admin Portal, append ?access=admin_portal_secure to the local URL (e.g., http://localhost:8501/?access=admin_portal_secure).
+
+---
+
+### 👤 Author
+* Yuen Pak Hei — BSc in Information Security, The Hong Kong Polytechnic University 
